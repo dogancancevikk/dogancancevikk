@@ -1,58 +1,133 @@
-# Hey, I'm Doğancan 👋
+<div align="center">
 
-**Full Stack Developer** building production SaaS, ERP, and growth systems — from database to deploy to ads.
+<img src="assets/novaframe-logo.png" alt="NovaFrame" width="420"/>
 
-📍 Kocaeli, Türkiye · 🌐 Remote / Hybrid · 🧠 Self-taught, production-first
+# Doğancan Çevik
 
----
+**Full Stack Product Engineer** · SaaS · ERP · Growth Systems
 
-### What I ship
+I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ERP engines, AI assistants, and the ads that feed them.
 
-| Focus | Stack |
-|------|--------|
-| **SaaS & ERP** | PHP 8 · MySQL · Clean Architecture · Multi-tenant |
-| **Frontend** | React · Alpine.js · Tailwind · Vite |
-| **Automation** | Node.js · Meta Marketing API · WhatsApp bots |
-| **AI** | Gemini API — matching, briefings, assistants |
-| **Growth** | Google Ads · Meta Ads · SEO · conversion funnels |
+[![Location](https://img.shields.io/badge/Kocaeli-Türkiye-0f172a?style=for-the-badge)](https://github.com/dogancancevikk)
+[![Work](https://img.shields.io/badge/Remote%20%2F%20Hybrid-Ready-10b981?style=for-the-badge)](https://github.com/dogancancevikk)
+[![Stack](https://img.shields.io/badge/PHP%20·%20Node%20·%20MySQL%20·%20React-1e293b?style=for-the-badge)](https://github.com/dogancancevikk/novaframe)
 
----
+[Live Product](https://emlakradar.app) · [NovaFrame Showcase](https://github.com/dogancancevikk/novaframe) · [Architecture Docs](https://github.com/dogancancevikk/novaframe/blob/main/docs/ARCHITECTURE.md)
 
-### Featured work
-
-- **[NovaFrame](https://github.com/dogancancevikk/novaframe)** — Custom PHP SaaS framework (Clean Architecture, DI, multi-tenant CRM showcase)
-- **EmlakRadar** — AI-assisted multi-tenant real estate CRM (matching engine, WhatsApp assistant, portfolio)
-- **Altınova Cloud ERP** — Live construction/real-estate ERP: quotes, PDF engine, QR verification
-- **Meta Ads Brain** — Predictive lag-attribution + automation pipeline for WhatsApp lead campaigns
+</div>
 
 ---
 
-### How I work
+## Hiring signal (60-second scan)
+
+| What you need | What I already built in production |
+|---|---|
+| Own a product end-to-end | Multi-tenant SaaS CRM live at [emlakradar.app](https://emlakradar.app) |
+| Serious backend architecture | Custom PHP framework **NovaFrame** — Clean Architecture, DI, CSRF, rate limits |
+| Business outcomes, not only code | Lead funnels, WhatsApp automation, Google/Meta ads ops |
+| Self-directed engineer | Lise → production founder/builder (no CS degree, real systems) |
+
+> **Code access policy:** Commercial product source is **private**. Public GitHub shows architecture + sanitized showcase. During interview I invite you to a time-boxed private review or live walkthrough.
+
+---
+
+## Featured product — EmlakRadar
+
+**AI-assisted multi-tenant CRM for real-estate offices** · Live SaaS
+
+<img src="assets/emlakradar-landing.png" alt="EmlakRadar landing" width="100%"/>
+
+### Product UI
+
+<p align="center">
+  <img src="assets/panel-kokpit.png" alt="Kokpit" width="48%"/>
+  <img src="assets/panel-portfoy.png" alt="Portföy" width="48%"/>
+</p>
+<p align="center">
+  <img src="assets/panel-eslestirme.png" alt="Eşleştirme" width="48%"/>
+  <img src="assets/panel-para.png" alt="Para Radarı" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="assets/emlakradar-login.png" alt="Login — Powered by NovaFrame" width="70%"/>
+</p>
+
+### What I built
+
+- **Kokpit** — daily ops board (calls, appointments, money signals)
+- **Matching engine** — region / budget / type scoring
+- **WhatsApp demand bot + follow-up flows**
+- **Portfolio + digital storefront**
+- **Contracts / closing workflows**
+- **Multi-tenant isolation** (organization-scoped data)
+- **NovaFrame core** — CSRF, rate limiting, DI container, structured logs
+
+**Stack:** PHP 8 · MySQL · Alpine.js · Tailwind · Gemini AI · GitHub Actions
+
+---
+
+## Open-source architecture showcase — NovaFrame
+
+<img src="assets/novaframe-icon.png" alt="NovaFrame icon" width="96"/>
+
+Public, sanitized framework extracted from the commercial SaaS — so engineering leads can evaluate **how I think**, without leaking proprietary IP.
+
+→ **[github.com/dogancancevikk/novaframe](https://github.com/dogancancevikk/novaframe)**
 
 ```text
-Idea → schema → API → UI → deploy → measure → optimize
+HTTP → Router → Middleware → Controller → Service → Repository → MySQL
 ```
 
-I don't just write features — I own the full loop: architecture, security (CSRF, rate limits, secrets), CI, and the ads that feed the product.
+| Layer | Responsibility |
+|------|----------------|
+| Controllers | Thin HTTP boundary |
+| Services | Business rules |
+| Repositories | Org-scoped data access |
+| Security | CSRF · rate limit · prepared statements · `.env` secrets |
 
 ---
 
-### Tech I use daily
+## Other production systems
 
-![PHP](https://img.shields.io/badge/PHP_8.1+-777BB4?style=flat-square&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-### Currently building
-
-Predictive Meta Ads automation — conversion-lag models, Bayesian budget allocation, and lead scoring for local-service businesses.
+| System | Role |
+|--------|------|
+| **Altınova Cloud ERP** | Quotes, PDF engine, QR verification, multi-company ops |
+| **Altınova Digital Ecosystem** | CMS, AI cost robot, SEO landings, Google Ads pipeline |
+| **Meta Ads Brain** | Sync + rules + lead scoring + lag-aware optimization (in progress) |
 
 ---
 
-💬 Open to remote / hybrid roles and serious product collaborations.  
-🔗 [github.com/dogancancevikk](https://github.com/dogancancevikk)
+## Tech I use to ship
+
+```text
+Backend     PHP 8 (strict) · Node.js · REST · PDO · multi-tenant
+Frontend    React · Alpine.js · Tailwind · Vite
+Data        MySQL 8 · migrations · parameterized queries
+Architecture Clean Architecture · Repository · DI · SOLID
+AI          Gemini — briefings, matching, WhatsApp assistants
+Growth      Google Ads · Meta Marketing API · GTM · SEO
+DevOps      Git · GitHub Actions · Linux hosting · secrets hygiene
+```
+
+---
+
+## How I work with hiring teams
+
+1. You review this profile + live product ([emlakradar.app](https://emlakradar.app))
+2. You review public **NovaFrame** architecture
+3. If serious → I grant **48h private repo access** or do a **screen-share code tour**
+4. Take-home / pair session welcome
+
+**Looking for:** Remote / hybrid full-stack or product-engineering roles where ownership matters.
+
+---
+
+<div align="center">
+
+### Built with NovaFrame
+
+<img src="assets/novaframe-product-logo.png" alt="NovaFrame product mark" width="120"/>
+
+**Doğancan Çevik** · [github.com/dogancancevikk](https://github.com/dogancancevikk)
+
+</div>
