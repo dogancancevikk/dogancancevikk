@@ -24,6 +24,7 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 |---|---|
 | Own a product end-to-end | Multi-tenant SaaS CRM live at [emlakradar.app](https://emlakradar.app) |
 | Serious backend architecture | Custom PHP framework **NovaFrame** — Clean Architecture, DI, CSRF, rate limits |
+| Full ERP ownership | Altınova Cloud — CRM, Teklif Robotu, SMS contracts, tahsilat (screenshots below) |
 | Business outcomes, not only code | Lead funnels, WhatsApp automation, Google/Meta ads ops |
 | Self-directed engineer | Lise → production founder/builder (no CS degree, real systems) |
 
@@ -66,6 +67,38 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 
 ---
 
+## Production ERP — Altınova Cloud
+
+**Construction / real-estate ops ERP** · Live at [altinovaemlak.com/adminpanel](https://altinovaemlak.com/adminpanel/) · Source **private**
+
+<img src="assets/erp-dashboard.png" alt="Altınova ERP — Komuta Merkezi" width="100%"/>
+
+### Module UI (1920×1080)
+
+<p align="center">
+  <img src="assets/erp-crm.png" alt="Müşteri CRM" width="48%"/>
+  <img src="assets/erp-teklifrobotu.png" alt="Teklif Robotu" width="48%"/>
+</p>
+<p align="center">
+  <img src="assets/erp-sozlesme.png" alt="Dijital Sözleşme + SMS" width="48%"/>
+  <img src="assets/erp-tahsilat.png" alt="Tahsilat" width="48%"/>
+</p>
+
+### What I built
+
+- **Komuta Merkezi** — live market ticker, KPIs, WhatsApp lead inbox
+- **Müşteri CRM** — 2.6k+ records, follow-ups, categories, CSV import
+- **Teklif Robotu V17** — metraj / hakediş, AI tools, PDF + multi-currency
+- **Dijital Sözleşme** — link generation, SMS OTP flow, templates, e-sign status
+- **Tahsilat** — collections board
+- **Also in panel:** Filo & yakıt, personel / özlük, evrak-fatura arşivi, maliyet, tedarik, SEO tools
+
+**Stack:** PHP · MySQL · Tailwind · SPA shell · VatanSMS · PDF / QR verification
+
+> Commercial ERP source stays **private** (invite-only for interviews). Public proof = screenshots + live walkthrough.
+
+---
+
 ## Open-source architecture showcase — NovaFrame
 
 <img src="assets/novaframe-icon.png" alt="NovaFrame icon" width="96"/>
@@ -91,7 +124,6 @@ HTTP → Router → Middleware → Controller → Service → Repository → MyS
 
 | System | Role |
 |--------|------|
-| **Altınova Cloud ERP** | Quotes, PDF engine, QR verification, multi-company ops |
 | **Altınova Digital Ecosystem** | CMS, AI cost robot, SEO landings, Google Ads pipeline |
 | **Meta Ads Brain** | Sync + rules + lead scoring + lag-aware optimization (in progress) |
 
