@@ -12,7 +12,7 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 [![Work](https://img.shields.io/badge/Remote%20%2F%20Hybrid-Ready-10b981?style=for-the-badge)](https://github.com/dogancancevikk)
 [![Stack](https://img.shields.io/badge/PHP%20·%20Node%20·%20MySQL%20·%20React-1e293b?style=for-the-badge)](https://github.com/dogancancevikk/novaframe)
 
-[Live Product](https://emlakradar.app) · [NovaFrame Showcase](https://github.com/dogancancevikk/novaframe) · [Architecture Docs](https://github.com/dogancancevikk/novaframe/blob/main/docs/ARCHITECTURE.md)
+[Live Product](https://emlakradar.app) · [NovaFrame](https://github.com/dogancancevikk/novaframe) · [Meta Ads Predictive](https://github.com/dogancancevikk/meta-ads-predictive) · [Altınova Cloud](https://github.com/dogancancevikk/altinova-cloud)
 
 </div>
 
@@ -25,7 +25,7 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 | Own a product end-to-end | Multi-tenant SaaS CRM live at [emlakradar.app](https://emlakradar.app) |
 | Serious backend architecture | Custom PHP framework **NovaFrame** — Clean Architecture, DI, CSRF, rate limits |
 | Full ERP ownership | [Altınova Cloud](https://github.com/dogancancevikk/altinova-cloud) — CRM, Quote Robot, SMS contracts, collections |
-| Business outcomes, not only code | Lead funnels, WhatsApp automation, Google/Meta ads ops |
+| Business outcomes, not only code | Lead funnels, WhatsApp automation, [predictive Meta Ads](https://github.com/dogancancevikk/meta-ads-predictive) |
 | Self-directed engineer | Lise → production founder/builder (no CS degree, real systems) |
 
 > **Code access policy:** Commercial product source is **private**. Public GitHub shows architecture + sanitized showcase. During interview I invite you to a time-boxed private review or live walkthrough.
@@ -120,12 +120,26 @@ HTTP → Router → Middleware → Controller → Service → Repository → MyS
 
 ---
 
+## Predictive Meta Ads — open core
+
+I don't scale ads on today's ROAS. Production automation decides on **predicted D7/D14 CPA**, allocates budget with **Thompson Sampling**, and switches bid strategy from **hourly CPM**.
+
+→ **[github.com/dogancancevikk/meta-ads-predictive](https://github.com/dogancancevikk/meta-ads-predictive)** · `npm test` runs offline (no token)
+
+| Pillar | Signal |
+|--------|--------|
+| Conversion Lag | Cohort maturity → Lag Multiplier → SCALE / HOLD / CUT / KILL |
+| Bayesian budget | Beta–Bernoulli arms + confidence intervals |
+| Bid arbitrage | LOWEST_COST ↔ COST_CAP + CBO liquidity |
+
+---
+
 ## Other production systems
 
 | System | Role |
 |--------|------|
 | **Altınova Digital Ecosystem** | CMS, AI cost robot, SEO landings, Google Ads pipeline |
-| **Meta Ads Brain** | Sync + rules + lead scoring + lag-aware optimization (in progress) |
+| **Meta Ads Brain** (private) | Full sync + apply + lead scoring on top of the public predictive core |
 
 ---
 
@@ -146,7 +160,7 @@ DevOps      Git · GitHub Actions · Linux hosting · secrets hygiene
 ## How I work with hiring teams
 
 1. You review this profile + live product ([emlakradar.app](https://emlakradar.app))
-2. You review public **NovaFrame** architecture
+2. You review public **NovaFrame** + **Meta Ads Predictive** cores (`npm test` / `npm run demo`)
 3. If serious → I grant **48h private repo access** or do a **screen-share code tour**
 4. Take-home / pair session welcome
 
