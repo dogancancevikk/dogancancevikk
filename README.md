@@ -69,11 +69,11 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 
 ## Production ERP — Altınova Cloud
 
-**Construction / real-estate ops ERP** · Live at [altinovaemlak.com/adminpanel](https://altinovaemlak.com/adminpanel/) · Source **private**
+**Construction / real-estate ops ERP** · Source **private** · Public docs + 1280px screens: [altinova-cloud](https://github.com/dogancancevikk/altinova-cloud)
 
 <img src="assets/erp-dashboard.png" alt="Altınova ERP — Komuta Merkezi" width="100%"/>
 
-### Module UI (1920×1080)
+### Module UI
 
 <p align="center">
   <img src="assets/erp-crm.png" alt="Müşteri CRM" width="48%"/>
@@ -95,7 +95,7 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 
 **Stack:** PHP · MySQL · Tailwind · SPA shell · VatanSMS · PDF / QR verification
 
-> Commercial ERP source stays **private** (invite-only for interviews). Public proof = screenshots + live walkthrough.
+> Commercial ERP source stays **private** (invite-only for interviews). Public proof = [feature docs + screenshots](https://github.com/dogancancevikk/altinova-cloud) + live walkthrough.
 
 ---
 
