@@ -4,7 +4,7 @@
 
 # Doğancan Çevik
 
-**Full Stack Product Engineer** · SaaS · ERP · Growth Systems
+**Full Stack Product Engineer** · Live SaaS · ERP · Meta Ads automation & predictive systems
 
 I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ERP engines, AI assistants, and the ads that feed them.
 
@@ -24,7 +24,7 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 |---|---|
 | Own a product end-to-end | Multi-tenant SaaS CRM live at [emlakradar.app](https://emlakradar.app) |
 | Serious backend architecture | Custom PHP framework **NovaFrame** — Clean Architecture, DI, CSRF, rate limits |
-| Full ERP ownership | Altınova Cloud — CRM, Teklif Robotu, SMS contracts, tahsilat (screenshots below) |
+| Full ERP ownership | [Altınova Cloud](https://github.com/dogancancevikk/altinova-cloud) — CRM, Quote Robot, SMS contracts, collections |
 | Business outcomes, not only code | Lead funnels, WhatsApp automation, Google/Meta ads ops |
 | Self-directed engineer | Lise → production founder/builder (no CS degree, real systems) |
 
