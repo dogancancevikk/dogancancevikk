@@ -86,12 +86,12 @@ I don't just ship features — I ship **revenue systems**: multi-tenant SaaS, ER
 
 ### What I built
 
-- **Komuta Merkezi** — live market ticker, KPIs, WhatsApp lead inbox
-- **Müşteri CRM** — 2.6k+ records, follow-ups, categories, CSV import
-- **Teklif Robotu V17** — metraj / hakediş, AI tools, PDF + multi-currency
-- **Dijital Sözleşme** — link generation, SMS OTP flow, templates, e-sign status
-- **Tahsilat** — collections board
-- **Also in panel:** Filo & yakıt, personel / özlük, evrak-fatura arşivi, maliyet, tedarik, SEO tools
+- **Command Center** — live market ticker, KPIs, WhatsApp lead inbox
+- **Customer CRM** — 2.6k+ records, follow-ups, categories, CSV import
+- **Quote Robot V17** — quantity takeoff / progress payment, AI tools, PDF + multi-currency
+- **Digital Contracts** — link generation, SMS OTP flow, templates, e-sign status
+- **Collections** — receipts / payouts board
+- **Also in panel:** fleet & fuel, HR / personnel files, document + invoice archive, unit costs, procurement, SEO tools
 
 **Stack:** PHP · MySQL · Tailwind · SPA shell · VatanSMS · PDF / QR verification
 
